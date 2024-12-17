@@ -1,0 +1,114 @@
+/* General Reset */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  background: linear-gradient(135deg, #2b5876, #4e4376);
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Contenedor principal */
+.container {
+  background: #1f1f2e;
+  border-radius: 16px;
+  padding: 30px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
+  max-width: 400px;
+  text-align: center;
+}
+
+/* Logo */
+.logo {
+  width: 400px;
+  margin: 0 auto 20px;
+  display: block;
+}
+
+/* Título principal */
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #e6e6e6;
+}
+
+/* Input de cédula */
+.input-cedula {
+  width: 100%;
+  padding: 12px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  background: #2e2e40;
+  color: #fff;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.input-cedula:focus {
+  box-shadow: 0 4px 15px rgba(0, 175, 255, 0.5);
+}
+
+/* Botones */
+button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: transform 0.2s ease, background 0.3s ease;
+}
+
+.btn-register {
+  background: #00afcc;
+  color: #fff;
+}
+
+.btn-register:hover {
+  background: #008fb3;
+  transform: scale(1.05);
+}
+
+.btn-reset {
+  background: #e74c3c;
+  color: #fff;
+}
+
+.btn-reset:hover {
+  background: #c0392b;
+  transform: scale(1.05);
+}
+
+/* Mensaje de error */
+.error {
+  color: #e74c3c;
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+/* Información del participante */
+.participant-info {
+  margin-top: 20px;
+  background: #2e2e40;
+  border-radius: 8px;
+  padding: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.participant-info h2 {
+  color: #00afcc;
+  margin-bottom: 10px;
+}
+
+.participant-info p {
+  margin: 5px 0;
+  color: #e6e6e6;
+}
