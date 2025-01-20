@@ -82,7 +82,7 @@ const App = () => {
 
   return (
     <div className="container">
-      <img src="./public/img/comfacesar-1.png" alt="Logo Comfacesar" className="logo" />
+      <img src="img/comfacesar-1.png" alt="Logo Comfacesar" className="logo" />
       <h1>Registro de Asistencia</h1>
       <input
         type="text"
